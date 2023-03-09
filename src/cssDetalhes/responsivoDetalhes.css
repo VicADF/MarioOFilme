@@ -1,0 +1,100 @@
+@media (max-width: 687px) {
+    body {
+        background-image: url(../video/fundoM.mp4);
+        opacity: 1;
+        background-color: #000000;
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .container::-webkit-scrollbar {
+        width: 0.2em;
+        background-color: #F5F5F5;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+        background-color: #000000;
+    }
+
+    .container::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #F5F5F5;
+    }
+
+    .container2 .elencos::-webkit-scrollbar {
+        width: 0.2em;
+        background-color: #000000;
+    }
+
+    .container2 .elencos::-webkit-scrollbar-thumb {
+        background-color: #000000;
+    }
+
+    .container2 .elencos::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: #000000;
+    }
+
+
+    .container {
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+        max-height: 840px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 18px 18px 18px;
+    }
+
+    .descricao {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao1 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .container .descricao2 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .container .descricao3 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .container2 .elencos {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-titulo {
+        max-width: 75%;
+    }
+}
